@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');  
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: whitesmoke;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+            
+/*Banner Img & Paragraph*/
+
+            .con1-bg{
+                background-image:url(images/17580.jpg) ;
+                background-size: cover;
+           
+            }
+
+            .banner-img {
+                max-width: 400px;
+                height: 450px;
+                overflow: hidden;
+                margin: 0rem;
+                padding: 2rem  ;
+                
+            position: relative;
+            animation-name: ban_img;
+            animation-duration:4s;
+            animation-iteration-count: infinite;
+              }
+        .banner{
+        
+            text-align: center;
+            padding: 5rem;
+        }
+        .banner h3{
+            color: red;
+            font-weight: 600;
+            font-style: italic;
+        }
+        .banner p{
+            font-size: 18px;
+            font-weight: 400;
+        }
+        
+        .banner a{
+            text-decoration: none;
+           color: white;
+           
+        }
+          
+          @keyframes ban_img {
+            0%   { top:5px;}
+            25%  { top:0px;}
+            50%  { top:5px;}
+            75%  { top:0px;}
+            100% { top:5px;}
+          }
+        /*Section 2 About helping Hand*/
+       
+        .section2{
+        
+            text-align: center;
+            background-color: whitesmoke;
+           
+            
+        }
+            .section2 .h3{
+            color: red;
+            font-weight: 600;
+            padding: 3rem 0 1rem 3rem;
+            }
+
+
+
+/*Card Hover*/
+
+            .card {   
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                background: #fff;
+                transition: all 0.5s ease;
+                cursor: pointer;
+                user-select: none;
+                z-index: 10;
+                overflow: hidden
+            }    
+            .card:hover {
+                color: black;
+                transform: scale(1.025);
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px
+            }
+            
+          
+     /*NGO Search and Display Page */       
+    .search-dis{
+        width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+
+    }
+     
+/*admin & User dahboard*/
+
+    
+
+
+
+.sidebar{
+
+    background-color: black;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    color: antiquewhite;
+    justify-content: center;
+    
+}
+
+.admin-image{
+    width: 80px;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+.side-content{
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+hr.line{
+        width: 100%;
+        color: yellow;
+    }
+    a:link, a:visited {text-decoration: none;
+    color:white;}
+a{
+    color: white;
+    font-size: 18px;
+}
+a:hover{
+         color: wheat;
+        cursor: pointer;
+        
+    
+}
+.side-links{
+    background-color: #36454F;
+    padding: 1rem 3rem;
+}
+    
+  /*Donation Form*/
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
